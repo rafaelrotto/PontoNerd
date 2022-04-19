@@ -29,6 +29,9 @@
     <!-- Template Main CSS File -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
+    <!-- Template Main JS File -->
+    <script src="/public/js/main.js"></script>
+
     <!-- =======================================================
   * Template Name: Medicio - v4.7.0
   * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
@@ -40,6 +43,7 @@
 <body>
 
     <div id="app">
+
         <!-- ======= Top Bar ======= -->
         <div id="topbar" class="d-flex align-items-center fixed-top">
             <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
@@ -97,13 +101,13 @@
             </div>
         </footer><!-- End Footer -->
 
-        <!-- Pre Loader 
+        <!-- Pre Loader -->
         <div id="preloader"></div>
-        <a href="#" class="back-to-top"><i class="icofont-simple-up"><img src="/img/logo.png" width="35" height="35 " alt="logo"></i></a>
-        -->
-
+        <a href="#" class="back-to-top"><i class="icofont-simple-up"></a>
     </div>
 
 </body>
 
 </html>
+
+<script src="{{ asset('js/main.js') }}"></script>
