@@ -4,9 +4,6 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
-require('./bootstrap');
-
 (function () {
   "use strict";
 
@@ -270,3 +267,5 @@ require('./bootstrap');
   });
 
 })()
+
+require('./bootstrap');
